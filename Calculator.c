@@ -59,21 +59,16 @@ double perform_operation(int operation,double num1, double num2)
   else if(operation==2)
   {
     result=num1-num2;
-
   }
 
   else if(operation==3)
   {
-
     result=num1*num2;
-
   }
 
   else if(num2!=0)
   {
-
       result=num1/num2;
-
   }
 
   else
@@ -103,7 +98,8 @@ int main(int argc, char const *argv[])
         {
           printf("The result is: %lf\n",result);
         }
+
       }
-  } while(operation!=-1);
+    } while(operation!=-1);
   return 0;
 }
